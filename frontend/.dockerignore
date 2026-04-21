@@ -1,0 +1,39 @@
+# Node modules (never copy these)
+node_modules
+npm-debug.log
+
+# Logs
+logs
+*.log
+
+# Environment variables / secrets
+.env
+.env.*
+
+# Git files
+.git
+.gitignore
+
+# OS / system junk
+.DS_Store
+Thumbs.db
+
+# Build outputs
+dist
+build
+
+# Cache files
+.cache
+tmp
+*.tmp
+
+# Docker files themselves (optional but clean)
+Dockerfile
+docker-compose.yml
+
+# Editor / IDE files
+.vscode
+.idea
+
+# Test files (optional)
+coverage

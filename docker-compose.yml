@@ -1,0 +1,26 @@
+version: "3.8"
+
+services:
+  backend:
+    build: ./backend
+    # image: todo-back:v1
+    container_name: todo_backend
+    ports:
+      - "5000:5000"
+    networks:
+      - app-networks
+    
+  frontend:
+    build: ./frontend
+    # image: todo_front:v1
+    container_name: todo_frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    networks:
+      - app-networks
+
+networks:
+  app-networks:
+    driver: bridge
