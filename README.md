@@ -208,3 +208,5 @@ npm start
 - No user authentication
 - Simple styling with inline CSS only
 - Clean, minimal, beginner-friendly code
+
+- just a comit
