@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import TodoList from './components/TodoList';
 import AddTodo from './components/AddTodo';
 
-const API_URL = 'http://backend:5000';
+const API_URL = 'http://135.235.136.47:5000';
 
 function App() {
   const [todos, setTodos] = useState([]);
